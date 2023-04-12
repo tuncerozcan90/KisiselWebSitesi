@@ -1,0 +1,14 @@
+﻿@using KisiselWebSitesi.Models.Siniflar
+@model List<ikonlar>
+
+
+
+<div class="social">
+    @foreach (var x in Model)
+    {
+        <a href="@x.Link"><i class="@x.Ikon"></i></a>
+    }
+
+
+</div>
+
